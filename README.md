@@ -148,6 +148,21 @@ pip install -r requirements.txt
 ### 3. Prepare datasets
 
 Place the processed datasets under the `datasets/` directory and follow the dataset preparation instructions in `docs/`.
+Please organize them as follows:
+```
+├── data
+    ├── COSAS24
+    ├── FeTS_2024
+    ├── FL_Breast_Ultrasound
+    ├── FL_Fundus_Vessel_Segmentation
+    ├── FL_MMS
+    ├── FL_Polyp
+    ├── IR_images_sub
+    ├── kits19
+    ├── Multi_site_Prostate
+    └── Pancreas_segmentation
+    ......
+```
 
 ### 4. Run experiments
 
