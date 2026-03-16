@@ -182,7 +182,11 @@ Our goals are to:
 ## Citation
 
 ```bibtex
-@article{
+@article{zhu2026fl,
+  title={FL-MedSegBench: A Comprehensive Benchmark for Federated Learning on Medical Image Segmentation},
+  author={Zhu, Meilu and Wang, Zhiwei and Mao, Axiu and Li, Yuxing and Xing, Xiaohan and Yuan, Yixuan and Lam, Edmund Y},
+  journal={arXiv preprint arXiv:2603.11659},
+  year={2026}
 }
 ```
 
