@@ -1,5 +1,7 @@
 # FL-MedSegBench
 
+This repo is the source code of the [paper](https://arxiv.org/abs/2603.11659v1) "FL-MedSegBench: A Comprehensive Benchmark for Federated Learning on Medical Image Segmentation".
+
 ## Updates
 
 - **(2026-03-11)** Initial release. 
