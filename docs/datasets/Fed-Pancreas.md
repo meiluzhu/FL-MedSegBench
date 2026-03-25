@@ -1,20 +1,21 @@
 # Fed-Pancreas
 
-Fed-Pancreas dataset is an open access xxxx.
-👉 Please click [here]() to download.
+Fed-Pancreas dataset is an open access multi-center CT and MRI segmentation of pancreas.
+👉 Please click [here](https://osf.io/kysnj/) to download. In our benchmark, we only use T1W 
 
-## License and Terms of Use
-This dataset is released under the  
-[CC-BY-NC-SA-4.0 License](https://data.donders.ru.nl/doc/dua/CC-BY-NC-SA-4.0.html?0).
-In addition, users must comply with the official  
-[dataset terms of use](https://kits19.grand-challenge.org/data/).
-Please review both carefully before using the dataset.
 
 ## Acknowledgements
+if you use this dataset, please cite their work
 ```bash
-@article{,
+@article{zhang2025large,
+  title={Large-scale multi-center CT and MRI segmentation of pancreas with deep learning},
+  author={Zhang, Zheyuan and Keles, Elif and Durak, Gorkem and Taktak, Yavuz and Susladkar, Onkar and Gorade, Vandan and Jha, Debesh and Ormeci, Asli C and Medetalibeyoglu, Alpay and Yao, Lanhong and others},
+  journal={Medical image analysis},
+  volume={99},
+  pages={103382},
+  year={2025},
+  publisher={Elsevier}
 }
-
 ```
 
 ## Dataset Description
