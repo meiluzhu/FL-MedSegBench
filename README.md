@@ -151,18 +151,22 @@ Place the processed datasets under the `datasets/` directory and follow the data
 Please organize them as follows:
 ```
 ├── data
-    ├── COSAS24
-    ├── FeTS_2024
-    ├── FL_Breast_Ultrasound
-    ├── FL_Fundus_Vessel_Segmentation
-    ├── FL_MMS
-    ├── FL_Polyp
-    ├── IR_images_sub
-    ├── kits19
-    ├── Multi_site_Prostate
-    └── Pancreas_segmentation
+    ├── Fed-COSAS
+    ├── FeTS2022
+    ├── Fed-BUS
+    ├── Fed-Vessel
+    ├── Fed-M&Ms
+    ├── Fed-Polyp
+    ├── Fed-MG
+    ├── Fed-Prostate
+    └── Fed-Pancreas
     ......
 ```
+| Dataset | Dataset | Dataset |
+|--------|--------|--------|
+| [Fed-BUS](docs/datasets/Fed-BUS.md) | [FeTS2022](docs/datasets/FeTS2022.md) | [Fed-COSAS](docs/datasets/Fed-COSAS.md) |
+| [Fed-M&Ms](docs/datasets/Fed-M&Ms.md) | [Fed-Polyp](docs/datasets/Fed-Polyp.md) | [Fed-Vessel](docs/datasets/Fed-Vessel.md) |
+| [Fed-MG](docs/datasets/Fed-MG.md) | [Fed-Prostate](docs/datasets/Fed-Prostate.md) | [Fed-Pancreas](docs/datasets/Fed-Pancreas.md) |
 
 ### 4. Run experiments
 
