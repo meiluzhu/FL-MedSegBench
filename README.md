@@ -16,7 +16,7 @@
 - [Getting Started](#getting-started)
 - [Citation](#citation)
 
-**FL-MedSegBench** is a benchmark designed for **federated learning (FL) in medical image segmentation**. It provides a unified experimental framework to systematically evaluate both **global federated learning (gFL)** methods and **personalized federated learning (pFL)** methods across diverse medical imaging scenarios.
+**FL-MedSegBench** is a benchmark designed for **federated learning (FL) in medical image segmentation**. It provides a unified experimental framework to systematically evaluate both **generic federated learning (gFL)** methods and **personalized federated learning (pFL)** methods across diverse medical imaging scenarios.
 
 This benchmark covers:
 
@@ -78,7 +78,7 @@ This multimodal setting makes the benchmark suitable for studying FL robustness 
 
 ## Implemented Methods
 
-### Global Federated Learning (gFL) Methods
+### Generic Federated Learning (gFL) Methods
 
 The benchmark includes representative gFL baselines such as:
 
