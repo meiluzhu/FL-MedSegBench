@@ -15,7 +15,7 @@ The table below provides summary information.
 
 
 ## Acknowledgements
-
+If you use these data, please cite their works.
 ```
 CVC-300
 @article{vazquez2017benchmark,
