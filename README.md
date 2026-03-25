@@ -82,11 +82,11 @@ This multimodal setting makes the benchmark suitable for studying FL robustness 
 
 The benchmark includes representative gFL baselines such as:
 
-- FedAvg
+- [FedAvg](https://arxiv.org/abs/1602.05629)
 - FedProx
 - FedAWA
 - FedRDN
-- FedIWS
+- FedLWS
 - MOON
 - FedNova
 - PN
