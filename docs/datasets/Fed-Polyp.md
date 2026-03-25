@@ -15,9 +15,8 @@ The table below provides summary information.
 
 
 ## Acknowledgements
-```bash
---- CVC-300
 
+--- CVC-300
 @article{vazquez2017benchmark,
   title={A benchmark for endoluminal scene segmentation of colonoscopy images},
   author={V{\'a}zquez, David and Bernal, Jorge and S{\'a}nchez, F Javier and Fern{\'a}ndez-Esparrach, Gloria and L{\'o}pez, Antonio M and Romero, Adriana and Drozdzal, Michal and Courville, Aaron},
