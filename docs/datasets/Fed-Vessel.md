@@ -1,6 +1,6 @@
-# Fed-COSAS
+# Fed-Vessel
 
-Fed-COSAS dataset is an open access xxxx.
+Fed-Vessel dataset is an open access xxxx.
 👉 Please click [here]() to download.
 
 ## License and Terms of Use
@@ -23,7 +23,7 @@ For a more detailed description, please refer to the [original manuscript](xxxxx
 
 |                   | Dataset description
 | ----------------- | -----------------------------------------------
-| Description       | This is the dataset from Fed-COSAS.
+| Description       | This is the dataset from Fed-Vessel.
 | Dataset           | 210 CT scans with segmentation masks as Train Data and 90 CT scans with no segmentations as Test Data. xxxxxxx
 | Centers           | Data comes from 87 different centers. xxxxxx
 | Task              | Supervised Segmentation
