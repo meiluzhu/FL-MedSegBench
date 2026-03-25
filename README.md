@@ -83,23 +83,23 @@ This multimodal setting makes the benchmark suitable for studying FL robustness 
 The benchmark includes representative gFL baselines such as:
 
 - [FedAvg](https://arxiv.org/abs/1602.05629)
-- FedProx
-- FedAWA
-- FedRDN
-- FedLWS
-- MOON
-- FedNova
-- PN
+- [FedProx](https://arxiv.org/abs/1812.06127)
+- [FedAWA](https://arxiv.org/abs/2503.15842)
+- [FedRDN](https://arxiv.org/abs/2306.09363)
+- [FedLWS](https://arxiv.org/abs/2503.15111)
+- [MOON](https://arxiv.org/abs/2103.16257)
+- [FedNova](https://arxiv.org/abs/2007.07481)
+- [PN](https://ieeexplore.ieee.org/document/11094232/)
 
 ### Personalized Federated Learning (pFL) Methods
 
 The benchmark also supports personalized FL methods, including:
 
-- Ditto
-- FedBN
-- FedPer
-- FedRoD
-- SioBN
+- [Ditto](https://arxiv.org/abs/2012.04221)
+- [FedBN](https://arxiv.org/abs/2102.07623)
+- [FedPer](https://arxiv.org/abs/1912.00818)
+- [FedRoD](https://arxiv.org/abs/2107.00778)
+- [SioBN](https://arxiv.org/abs/2008.07424)
 
 In total, **13+ comparison methods** are included for comprehensive benchmarking.
 
