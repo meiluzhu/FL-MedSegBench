@@ -16,7 +16,7 @@ The table below provides summary information.
 
 ## Acknowledgements
 ```bash
-**CVC-300**
+### CVC-300
 
 @article{vazquez2017benchmark,
   title={A benchmark for endoluminal scene segmentation of colonoscopy images},
