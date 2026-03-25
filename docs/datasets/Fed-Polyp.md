@@ -30,7 +30,6 @@ CVC-300
 }
 
 CVC-ClinicDB
-
 @article{bernal2015wm,
   title={WM-DOVA maps for accurate polyp highlighting in colonoscopy: Validation vs. saliency maps from physicians},
   author={Bernal, Jorge and S{\'a}nchez, F Javier and Fern{\'a}ndez-Esparrach, Gloria and Gil, Debora and Rodr{\'\i}guez, Cristina and Vilari{\~n}o, Fernando},
@@ -42,7 +41,6 @@ CVC-ClinicDB
 }
 
 CVC-ColonDB
-
 @article{bernal2012towards,
   title={Towards automatic polyp detection with a polyp appearance model},
   author={Bernal, Jorge and S{\'a}nchez, Javier and Vilarino, Fernando},
@@ -55,7 +53,6 @@ CVC-ColonDB
 }
 
 EndoTect
-
 @inproceedings{hicks2021endotect,
   title={The EndoTect 2020 challenge: evaluation and comparison of classification, segmentation and inference time for endoscopy},
   author={Hicks, Steven A and Jha, Debesh and Thambawita, Vajira and Halvorsen, P{\aa}l and Hammer, Hugo L and Riegler, Michael A},
@@ -66,7 +63,6 @@ EndoTect
 }
 
 ETISLarib-PolypDB
-
 @article{silva2014toward,
   title={Toward embedded detection of polyps in wce images for early diagnosis of colorectal cancer},
   author={Silva, Juan and Histace, Aymeric and Romain, Olivier and Dray, Xavier and Granado, Bertrand},
