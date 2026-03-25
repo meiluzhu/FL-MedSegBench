@@ -1,29 +1,31 @@
 # Fed-Vessel
+The dataset used in this repo comes from the [Multi-Centre, Multi-Vendor & Multi-Disease Cardiac Image Segmentation Challenge (M&Ms)](https://www.ub.edu/mnms/). You can 
+submit the application via the official website to obtain a download link.
 
-Fed-Vessel dataset is an open access xxxx.
-👉 Please click [here]() to download.
-
-## License and Terms of Use
-This dataset is released under the  
-[CC-BY-NC-SA-4.0 License](https://data.donders.ru.nl/doc/dua/CC-BY-NC-SA-4.0.html?0).
-In addition, users must comply with the official  
-[dataset terms of use](https://kits19.grand-challenge.org/data/).
-Please review both carefully before using the dataset.
 
 ## Acknowledgements
+if you use their data, please cite their paper.
 ```bash
-@article{,
+@article{campello2021multi,
+  title={Multi-centre, multi-vendor and multi-disease cardiac segmentation: the M\&Ms challenge},
+  author={Campello, Victor M and Gkontra, Polyxeni and Izquierdo, Cristian and Martin-Isla, Carlos and Sojoudi, Alireza and Full, Peter M and Maier-Hein, Klaus and Zhang, Yao and He, Zhiqiang and Ma, Jun and others},
+  journal={IEEE Transactions on Medical Imaging},
+  volume={40},
+  number={12},
+  pages={3543--3554},
+  year={2021},
+  publisher={IEEE}
 }
 
 ```
 
 ## Dataset Description
 The table below provides summary information.
-For a more detailed description, please refer to the [original manuscript](xxxxx).
+For a more detailed description, please refer to the [official website](https://www.ub.edu/mnms/).
 
 |                   | Dataset description
 | ----------------- | -----------------------------------------------
 | Description       | This is the dataset from Fed-Vessel.
-| Dataset           | 210 CT scans with segmentation masks as Train Data and 90 CT scans with no segmentations as Test Data. xxxxxxx
-| Centers           | Data comes from 87 different centers. xxxxxx
-| Task              | Supervised Segmentation
+| Dataset           | This data contains 320 3D MRI volumes.
+| Centers           | This dataset comprises 5 centers including four hospitals from Spain and one hospital from Germany. The Vall d’Hebron Hospital contains 95 volumes acquired using Siemens scanners; the Sagrada Familia Hospital includes 74 images obtained with Philips systems; Universitatsklinikum Hamburg-Eppendorf provides ¨ 51 volumes from Philips scanners; Both Universitari Dexeus Hospital and Creu Blanca Cl´ınica contain 50 volumes captured by General Electric and Canon imaging systems, respectively.
+| Task              | Right ventricular segmentation 
