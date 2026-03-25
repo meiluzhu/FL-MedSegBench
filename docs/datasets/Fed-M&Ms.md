@@ -1,4 +1,4 @@
-# Fed-Vessel
+# Fed-M&Ms
 The dataset used in this repo comes from the [Multi-Centre, Multi-Vendor & Multi-Disease Cardiac Image Segmentation Challenge (M&Ms)](https://www.ub.edu/mnms/). You can 
 submit the application via the official website to obtain a download link.
 
