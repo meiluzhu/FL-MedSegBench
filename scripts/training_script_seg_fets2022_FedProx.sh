@@ -34,7 +34,7 @@ nvidia-smi
 device='0'
 
 python $SLURM_SUBMIT_DIR/main_seg.py --exp_name='E1' \
---data_path='./data/MICCAI_FeTS2022_TrainingData' \
+--data_path='./data/FeTS2022_crop' \
 --local_model='UNet3D' \
 --dataset='FeTS2022' \
 --T=50 \
