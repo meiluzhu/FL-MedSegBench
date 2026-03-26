@@ -154,7 +154,7 @@ Please organize them as follows:
 ```
 ├── data
     ├── Fed-COSAS
-    ├── FeTS2022
+    ├── FeTS2022_crop
     ├── Fed-BUS
     ├── Fed-Vessel
     ├── Fed-M&Ms
@@ -166,7 +166,7 @@ Please organize them as follows:
 ```
 | Dataset | Dataset | Dataset |
 |--------|--------|--------|
-| [Fed-BUS](docs/datasets/Fed-BUS.md) | [FeTS2022](docs/datasets/FeTS2022.md) | [Fed-COSAS](docs/datasets/Fed-COSAS.md) |
+| [Fed-BUS](docs/datasets/Fed-BUS.md) | [FeTS2022_crop](docs/datasets/FeTS2022.md) | [Fed-COSAS](docs/datasets/Fed-COSAS.md) |
 | [Fed-M&Ms](docs/datasets/Fed-M&Ms.md) | [Fed-Polyp](docs/datasets/Fed-Polyp.md) | [Fed-Vessel](docs/datasets/Fed-Vessel.md) |
 | [Fed-MG](docs/datasets/Fed-MG.md) | [Fed-Prostate](docs/datasets/Fed-Prostate.md) | [Fed-Pancreas](docs/datasets/Fed-Pancreas.md) |
 
