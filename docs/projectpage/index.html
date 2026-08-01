@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="FL-MedSegBench: A Comprehensive Benchmark for Federated Learning on Medical Image Segmentation">
+  <title>FL-MedSegBench | Federated Learning for Medical Image Segmentation</title>
+  <link rel="stylesheet" href="assets/style.css?v=20260731-1">
+</head>
+<body>
+<main>
+  <section class="hero section">
+    <div class="container narrow">
+      <h1>FL-MedSegBench: A Comprehensive Benchmark for Federated Learning on Medical Image Segmentation</h1>
+      <p class="venue">arXiv 2026</p>
+      <p class="authors">
+        <span>Meilu Zhu<sup>1,&dagger;</sup></span><span>Zhiwei Wang<sup>1,&dagger;</sup></span><span>Axiu Mao<sup>2</sup></span><span>Yuxing Li<sup>1</sup></span><span>Xiaohan Xing<sup>3</sup></span><span>Yixuan Yuan<sup>4</sup></span><span>Edmund Y. Lam<sup>1,*</sup></span>
+      </p>
+      <p class="affiliations">
+        <span><sup>1</sup>Department of Electrical and Electronic Engineering, The University of Hong Kong</span>
+        <span><sup>2</sup>School of Communication Engineering, Hangzhou Dianzi University</span>
+        <span><sup>3</sup>Department of Radiation Oncology, Stanford University</span>
+        <span><sup>4</sup>Department of Electronic Engineering, The Chinese University of Hong Kong</span>
+      </p>
+      <p class="affiliations">
+        <span><sup>&dagger;</sup>Equal contribution</span>
+        <span><sup>*</sup>Corresponding author</span>
+      </p>
+
+      <div class="buttons">
+        <a class="button primary"
+            href="https://arxiv.org/abs/2603.11659"
+            target="_blank"
+            rel="noopener noreferrer">
+          <img class="button-icon" src="https://cdn.simpleicons.org/arxiv/ffffff" alt="" aria-hidden="true">
+          Paper
+        </a>
+        <a class="button"
+            href="https://github.com/meiluzhu/FL-MedSegBench"
+            target="_blank"
+            rel="noopener noreferrer">
+          <img class="button-icon" src="https://cdn.simpleicons.org/github/181717" alt="" aria-hidden="true">
+          Code
+        </a>
+        <a class="button" href="#">🗂 Datasets</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section compact">
+    <div class="container">
+      <img class="main-figure" src="assets/main.png" alt="FL-MedSegBench overview: datasets, modalities, tasks and federated learning methods">
+      <p class="caption">Overview of FL-MedSegBench — a unified pipeline for evaluating global and personalized federated learning across diverse medical segmentation datasets, modalities and tasks.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container narrow">
+      <h2>Overview</h2>
+      <p class="lead">
+        FL-MedSegBench is a benchmark for <strong>federated learning (FL) in medical image segmentation</strong>.
+        It provides a unified experimental framework to systematically evaluate both <strong>global FL (gFL)</strong>
+        and <strong>personalized FL (pFL)</strong> methods across diverse medical imaging scenarios.
+      </p>
+      <div class="feature-grid">
+        <div class="card">
+          <h3>27+ datasets</h3>
+          <p>Public medical segmentation datasets spanning brain, heart, prostate, pancreas, eye, gland, polyp and tissue-level targets.</p>
+        </div>
+        <div class="card">
+          <h3>10+ modalities</h3>
+          <p>MRI, ultrasound, endoscopy, histology, fundus / retinal imaging, microscopy and other clinical modalities.</p>
+        </div>
+        <div class="card">
+          <h3>13+ methods</h3>
+          <p>Representative gFL and pFL baselines, all trained and evaluated under one standardized, reproducible pipeline.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section tinted">
+    <div class="container narrow">
+      <h2>Highlights</h2>
+      <div class="steps">
+        <div><strong>2D &amp; 3D</strong><br>Covers both 2D slice-level and 3D volumetric segmentation tasks.</div>
+        <div><strong>Multi-domain</strong><br>Realistic cross-site heterogeneity and distribution shift between clients.</div>
+        <div><strong>Reproducible</strong><br>One training driver, shared data pipeline, fixed seeds and unified metrics.</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container narrow">
+      <h2>Implemented Methods</h2>
+      <div class="result-tabs">
+        <button class="tab active" data-target="gfl">Global FL</button>
+        <button class="tab" data-target="pfl">Personalized FL</button>
+      </div>
+      <div class="result-panel active" id="gfl">
+        <div class="steps">
+          <div>FedAvg</div>
+          <div>FedProx</div>
+          <div>FedAWA</div>
+          <div>FedRDN</div>
+          <div>FedIWS</div>
+          <div>MOON</div>
+          <div>FedNova</div>
+          <div>PN</div>
+        </div>
+      </div>
+      <div class="result-panel" id="pfl">
+        <div class="steps">
+          <div>Ditto</div>
+          <div>FedBN</div>
+          <div>FedPer</div>
+          <div>FedRoD</div>
+          <div>SioBN</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section tinted">
+    <div class="container narrow">
+      <h2>Datasets &amp; Tasks</h2>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr><th>Task</th><th>Modality</th><th>Dimension</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Prostate segmentation</td><td>MRI</td><td>2D</td></tr>
+            <tr><td>Cardiac structure segmentation (M&amp;Ms)</td><td>MRI</td><td>3D</td></tr>
+            <tr><td>Brain tumor segmentation (FeTS2022)</td><td>MRI</td><td>3D</td></tr>
+            <tr><td>Pancreas segmentation</td><td>CT / MRI</td><td>3D</td></tr>
+            <tr><td>Optic disc &amp; cup segmentation</td><td>Fundus</td><td>2D</td></tr>
+            <tr><td>Meibomian gland segmentation</td><td>Infrared meibography</td><td>2D</td></tr>
+            <tr><td>Polyp segmentation</td><td>Endoscopy</td><td>2D</td></tr>
+            <tr><td>Breast lesion segmentation</td><td>Ultrasound</td><td>2D</td></tr>
+            <tr><td>Tissue / cell segmentation (COSAS)</td><td>Histology</td><td>2D</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="caption">A representative subset of the benchmark; see the repository for the full dataset list and download instructions.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container narrow">
+      <h2>Citation</h2>
+      <div class="code-box">
+        <button class="copy-button" id="copyBib" type="button">Copy</button>
+        <pre id="bibtex"><code>@article{zhu2026fl,
+  title   = {FL-MedSegBench: A Comprehensive Benchmark for Federated Learning on Medical Image Segmentation},
+  author  = {Zhu, Meilu and Wang, Zhiwei and Mao, Axiu and Li, Yuxing and Xing, Xiaohan and Yuan, Yixuan and Lam, Edmund Y},
+  journal = {arXiv preprint arXiv:2603.11659},
+  year    = {2026}
+}</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container narrow">FL-MedSegBench &middot; Benchmark for federated medical image segmentation</div>
+  </footer>
+</main>
+<script src="assets/main.js?v=20260731-1"></script>
+</body>
+</html>
